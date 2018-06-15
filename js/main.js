@@ -380,22 +380,22 @@ $(document).ready(function(){
 		if($(window).width() > 767) {
 			var scrollValue = $(window).scrollTop();
 			if(scrollValue > 27) {
-				$('.white-logo-cta img').attr('src', 'img/Talentica-Logo.svg');
+				$('.white-logo-cta img').attr('src', 'img/Talentclouds-Logo.svg');
 			}
 			else {
-				$('.white-logo-cta img').attr('src', 'img/Talentica-white-Logo.svg');
+				$('.white-logo-cta img').attr('src', 'img/Talentclouds-white-Logo.svg');
 			}
 		}
 		else {
-			$('.white-logo-cta img').attr('src', 'img/Talentica-Logo.svg');
+			$('.white-logo-cta img').attr('src', 'img/Talentclouds-Logo.svg');
 		}
 	});
 	// $(window).on('load resize',function(){
 	// 	if($(window).width() > 767) {
-	// 		$('.white-logo-cta img').attr('src', 'img/Talentica-white-Logo.svg');
+	// 		$('.white-logo-cta img').attr('src', 'img/Talentclouds-white-Logo.svg');
 	// 	}
 	// 	else {
-	// 		$('.white-logo-cta img').attr('src', 'img/Talentica-Logo.svg');
+	// 		$('.white-logo-cta img').attr('src', 'img/Talentclouds-Logo.svg');
 	// 	}
 	// });
 
