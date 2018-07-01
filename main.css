@@ -92,10 +92,10 @@ nav a:before {
   opacity: 0;
   content: "";
   height: 2px;
-  background-color: #DAEDFC;
+  background-color: #37C2FE;
 }
 nav a:hover {
-  color: #DAEDFC;
+  color: #37C2FE;
 }
 nav a:hover:before {
   transition: 0.5s all ease;
@@ -104,9 +104,10 @@ nav a:hover:before {
   opacity: 1;
 }
 nav a.selected {
-  color: #DAEDFC;
+  color: #37C2FE;
 }
-nav.fixed {
+
+/* nav.fixed {
   position: fixed;
   top: 0;
   left: 0;
@@ -114,7 +115,7 @@ nav.fixed {
   z-index: 100;
   background-color: #27263f f2;
   transition: 0.3s;
-}
+} */
 
 .nav--mobile {
   display: none;
@@ -648,6 +649,82 @@ section {
     transform: translate3d(0, 0, 0);
   }
 }
+
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding: 1.5rem;
+}
+
+footer a:not(:last-child) {
+  margin-right: 2rem;
+}
+footer a {
+  display: inline-block;
+  color: #424242;
+  text-decoration: none;
+  position: relative;
+}
+footer a:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: -10px;
+  opacity: 0;
+  content: "";
+  height: 2px;
+  background-color: #37C2FE;
+}
+footer a:hover {
+  color: #37C2FE;
+}
+footer a:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+footer a.selected {
+  color: #37C2FE;
+}
+footer.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #27263f f2;
+  transition: 0.3s;
+}
+
+footer p{
+  padding: 20px;
+  text-align: center;
+}
+
+footer .store-badge{
+  display: flex;
+  width: 100%;
+}
+
+footer .playstore{
+  width: 30%;
+}
+
+footer .webapp{
+  width: 40%;
+}
+
+footer img{
+  margin: auto;
+}
+
 @media only screen and (max-width: 960px) {
   .stats__block {
     width: 80%;
@@ -816,18 +893,8 @@ section {
     order: -1;
     z-index: 1;
   }
-  
-  .global-footer {
-    background: #e0e0e0;
-    padding: 10px 0 40px;
-    position: relative;
-    left: auto;
-    right: auto;
-    bottom: auto;
-    width: 100%;
-    z-index: 100
-  }
 }
+
 @media only screen and (max-width: 660px) {
   .snippets__cards {
     display: none;
