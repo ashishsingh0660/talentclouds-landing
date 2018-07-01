@@ -697,6 +697,7 @@ section {
     column-count: 2;
     text-align: left;
   }
+
 }
 @media only screen and (max-width: 770px) {
   .nav--desktop {
@@ -814,6 +815,17 @@ section {
     margin: 0 0 -2rem 1.2rem;
     order: -1;
     z-index: 1;
+  }
+  
+  .global-footer {
+    background: #e0e0e0;
+    padding: 10px 0 40px;
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    z-index: 100
   }
 }
 @media only screen and (max-width: 660px) {
