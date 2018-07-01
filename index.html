@@ -1,259 +1,345 @@
----
-layout: oasis
-css: oasis
-nav:
-  - name: home
-    link: '/'
-  - name: snippets
-    link: '#section-snippets'
-  - name: features
-    link: '#section-features'
-  - name: stats
-    link: '#section-stats'
-  - name: integration
-    link: '#section-integrations'
-  - name: customers
-    link: '#section-customers'
-  - name: contact
-    link: '#section-contact'
-section-hero:
-  title: TalentClouds
-  description: The only tool you need to run your school or manage your child's education.
-  image: "images/hero-phone.png"
-section-summary:
-  title: Only thing you need to run your school
-  list:
-    - img: "images/summary-github.png"
-      text: run your school at your fingertips
-    - img: "images/summary-cpu.png"
-      text: add value to<br>your teaching
-    - img: "images/summary-dollar.png"
-      text: empower students to achieve more
-  text: >-
-    Managing a school is no easy task. The sheer magnitude of processes involved can be overwhelming, especially if they are disconnected.
-    <br><br>
-    <strong>TalentClouds</strong> app brings all of those processes into a single application, where you can manage them as one long chain rather than a hundred disconnected ones. Keep students, teachers, and parents on the same page with customized dashboards and email/SMS notifications on web and mobile. And for a school that prioritizes student welfare, it’s vital to keep data secure and accessible in minutes. That’s the core of TalentClouds, do everything online and have it all ready for you to take over from wherever you left off.
-section-snippets:
-  title: Easy tracking of all Your stats
-  cards:
-    - text: Health check on the latest selected time range
-      stats: OK
-    - text: The average ping up time of selected time range
-      stats: 95%
-    - text: Average latency in the selected time range
-      stats: 19ms
-    - text: Shows the average packet lost in selected time range
-      stats: 0.1
-    - text: Error rate of bit transmission in selected time range
-      stats: 0.02%
-  description: >-
-    Throughput is controlled by available bandwidth, as well as the available signal-to-noise ratio and hardware limitations. Throughput for the purpose of this article will be understood to be measured from the arrival of the first bit of data at the receiver, to decouple the concept of throughput from the concept of latency.
-    <br><br>
-    Choice of an appropriate time window will often dominate calculations of throughput.
-section-features:
-  title: For Schools, Teachers & Parents
-  description: TCP acceleration converts the TCP packets into a stream that is similar to UDP. Because of this, the TCP acceleration software must provide its own mechanisms to ensure the reliability of the link.
-  image: "images/features-image.png"
-  features-left:
-    - img: "images/features-circle.svg"
-      text: Performance issues such as throughput and end-to-end delay are also addressed.
-    - img: "images/features-polygon.svg"
-      text: Many systems can be characterized as dominated either by throughput limitations or by latency limitations in terms of end-user utility or experience.
-    - img: "images/features-rec.svg"
-      text: In some cases, hard limits such as the speed of light present unique problems to such systems and nothing can be done to correct this.
-  features-right:
-    - img: "images/features-star.svg"
-      text: Other systems allow for significant balancing and optimization for best user experience.
-    - img: "images/features-triangle.svg"
-      text: A telecom satellite in geosynchronous orbit imposes a path length of at least 71000 km between transmitter and receiver.
-    - img: "images/features-rec.svg"
-      text: This delay can be very noticeable and affects satellite phone service regardless of available throughput capacity.
-section-stats:
-  title: Add value to the education
-  description: These long path length considerations are exacerbated when communicating with space probes and other long-range targets beyond Earth's atmosphere.
-  stats-list:
-    - id: stats-0
-      name: A/B Split
-      number: A/B
-    - id: stats-1
-      name: Crash Rate
-      number: 89%
-    - id: stats-2
-      name: Error reporting API - Uptime
-      number: 100
-    - id: stats-3
-      name: General API
-      number: 81rps
-    - id: stats-4
-      name: Data Access API
-      number: 93%
-    - id: stats-5
-      name: Average Latency
-      number: 1.98ms
-section-integrations:
-  title: Our Range
-  logos:
-    - img: images/logos/1.svg
-      name: airbnb
-    - img: images/logos/2.svg
-      name: twitter
-    - img: images/logos/3.svg
-      name: eventbrite
-    - img: images/logos/4.svg
-      name: netflix
-section-customers:
-  title: How we help
-  slides:
-    - title: Oasis provides a robust synopsis of our service statuses
-      paragraph: Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-      image: images/customer-1.png
-    - title: Oasis has brought clarity to our architecture
-      paragraph: Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-      image: images/customer-2.png
-section-contact:
-  title: Ready to get started?
-  description: Sign up here and our representative will contact you shortly.
-  btn-text: Sign Up
----
-<nav class="nav--desktop">
-  {% for item in page.nav %}
-    <a href="{{site.url}}{{item.link}}" class="js-btn" data-hover="{{ item.name }}">{{ item.name }}</a>
-  {% endfor %}
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- HTML Meta Tags -->
+  <title></title>
+  <meta name="description" content="">
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="">
+  <meta itemprop="description" content="">
+  <meta itemprop="image" content="">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css">
+  <link rel="stylesheet" href="oasis.css">
+  <link rel="author" href="humans.txt">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/min/tiny-slider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+  </head>
+  <body>
+  <nav class="nav--desktop">
+
+    <a href="http://localhost:4000/" class="js-btn" data-hover="home">home</a>
+
+    <a href="http://localhost:4000#section-snippets" class="js-btn" data-hover="snippets">brief</a>
+
+    <a href="http://localhost:4000#section-features" class="js-btn" data-hover="features">features</a>
+
+    <a href="http://localhost:4000#section-stats" class="js-btn" data-hover="stats">modules</a>
+
+    <a href="http://localhost:4000#section-integrations" class="js-btn" data-hover="integration">range</a>
+
+    <a href="http://localhost:4000#section-customers" class="js-btn" data-hover="customers">interface</a>
+
+    <a href="http://localhost:4000#section-contact" class="js-btn" data-hover="contact">contact</a>
+
 </nav>
 <nav class="nav--mobile">
   <div class="nav--icon"><i class="fas fa-cube"></i></div>
   <div class="mobile-list">
     <div class="centered">
-      {% for item in page.nav %}
-        <a href="{{site.url}}{{item.link}}" class="js-btn" data-hover="{{ item.name }}">{{ item.name }}</a>
-      {% endfor %}
+
+        <a href="http://localhost:4000/" class="js-btn" data-hover="home">home</a>
+
+        <a href="http://localhost:4000#section-snippets" class="js-btn" data-hover="snippets">snippets</a>
+
+        <a href="http://localhost:4000#section-features" class="js-btn" data-hover="features">features</a>
+
+        <a href="http://localhost:4000#section-stats" class="js-btn" data-hover="stats">stats</a>
+
+        <a href="http://localhost:4000#section-integrations" class="js-btn" data-hover="integration">integration</a>
+
+        <a href="http://localhost:4000#section-customers" class="js-btn" data-hover="customers">customers</a>
+
+        <a href="http://localhost:4000#section-contact" class="js-btn" data-hover="contact">contact</a>
+
     </div>
   </div>
 </nav>
 <section class="section--hero">
   <div class="flex--horizontal">
     <div class="flex_child--horizontal aligner">
-      <h1 class="font-fjalla">{{ page.section-hero.title }}</h1>
-      <p class="">{{ page.section-hero.description }}</p>
-      <a href="" class="cta">
-        <strong>Call Us For</strong><br>
+      <h1 class="font-fjalla">TalentClouds</h1>
+      <p class="">The only tool you need to run your school or manage your child's education.</p>
+      <a href="mailto:connect@wallify.in" class="cta">
+        <strong>Connect With Us Now</strong><br>
         <small>For Quick Demo</small>
       </a>
     </div>
     <div class="flex_child--horizontal fadeInUp">
-      <img src="{{ page.section-hero.image }}"  alt="">
+      <img src="images/hero-phone.png"  alt="">
     </div>
   </div>
 </section>
 <section class="section--summary">
   <div class="flex--vertical">
     <div class="flex_child--vertical flex--horizontal summary__lists">
-      {% for list in page.section-summary.list %}
+
         <div class="summary__list flex--horizontal fadeIn">
-          <img src="{{ list.img }}" alt="">
-          <p>{{ list.text }}</p>
+          <img src="images/summary-github.png" alt="">
+          <p>run your school at your fingertips</p>
         </div>
-      {% endfor %}
+
+        <div class="summary__list flex--horizontal fadeIn">
+          <img src="images/summary-cpu.png" alt="">
+          <p>add value to<br>your teaching</p>
+        </div>
+
+        <div class="summary__list flex--horizontal fadeIn">
+          <img src="images/summary-dollar.png" alt="">
+          <p>empower students to achieve more</p>
+        </div>
+
     </div>
     <div class="flex_child--vertical flex--horizontal aligner fadeIn">
-      <p>{{ page.section-summary.text }}</p>
-      <h2 class="font-fjalla aligner_item--bottom">{{ page.section-summary.title }}</h2>
+      <p>Managing a school is no easy task. The sheer magnitude of processes involved can be overwhelming, especially if they are disconnected. <br><br> <strong>TalentClouds</strong> app brings all of those processes into a single application, where you can manage them as one long chain rather than a hundred disconnected ones. Keep students, teachers, and parents on the same page with customized dashboards and email/SMS notifications on web and mobile. And for a school that prioritizes student welfare, it’s vital to keep data secure and accessible in minutes. That’s the core of TalentClouds, do everything online and have it all ready for you to take over from wherever you left off.</p>
+      <h2 class="font-fjalla aligner_item--bottom">Only thing you need to run your school</h2>
     </div>
   </div>
 </section>
 <section class="section--snippets scroll-to-reveal js-section">
   <div class="flex--horizontal">
     <div class="snippets__cards flex--vertical">
-      {% for card in page.section-snippets.cards %}
+
         <div class="snippets__card flex--horizontal">
-          <p>{{ card.text }}</p>
-          <h3 class="font-fjalla">{{ card.stats }}</h3>
+          <p>Teacher-Student Data Management</p>
+          <h3 class="font-fjalla"></h3>
         </div>
-      {% endfor %}
+
+        <div class="snippets__card flex--horizontal">
+          <p>School Calendar</p>
+          <h3 class="font-fjalla"></h3>
+        </div>
+
+        <div class="snippets__card flex--horizontal">
+          <p>Reports and Analytics</p>
+          <h3 class="font-fjalla"></h3>
+        </div>
+
+        <div class="snippets__card flex--horizontal">
+          <p>Dashboard & MIS</p>
+          <h3 class="font-fjalla"></h3>
+        </div>
+
+        <div class="snippets__card flex--horizontal">
+          <p>Assessment Module</p>
+          <h3 class="font-fjalla"></h3>
+        </div>
+
     </div>
     <div class="snippets__content animated fadeInDown">
-      <h3 class="font-fjalla snippets__title">{{ page.section-snippets.title }}</h3>
-      <p class="snippets__description">{{ page.section-snippets.description }}</p>
+      <h3 class="font-fjalla snippets__title">Easy tracking of all Your stats</h3>
+      <p class="snippets__description">TalentClouds is a technology platform that helps school automate time consuming manual processes and increase communication with parents through the smart mobile apps- thus increasing parent engagement and reducing administrative costs.</p>
     </div>
   </div>
 </section>
 <section class="section--features scroll-to-reveal js-section">
   <div class="section__title">
-    <h3 class="font-fjalla">{{ page.section-features.title }}</h3>
-    <p>{{ page.section-features.description }}</p>
+    <h3 class="font-fjalla">For Schools, Teachers & Parents</h3>
+    <p>TalentClouds is a complete integrated academics, administration and communication management solution for schools helping teachers, students and parents.</p>
   </div>
   <div class="flex--horizontal">
     <div class="features__left aligner flex--vertical">
-      {% for feature in page.section-features.features-left %}
-        <div class="flex--vertical fadeInLeft fadeInLeft--{{ forloop.index0 }}">
-          <object type="image/svg+xml" data="{{ feature.img }}"></object>
-          <p>{{ feature.text }}</p>
+
+        <div class="flex--vertical fadeInLeft fadeInLeft--0">
+          <object type="image/svg+xml" data="images/features-circle.svg"></object>
+          <p>Students can easily get all their information and communicate with teachers as well monitor their performance for improvements.</p>
         </div>
-      {% endfor %}
+
+        <div class="flex--vertical fadeInLeft fadeInLeft--1">
+          <object type="image/svg+xml" data="images/features-polygon.svg"></object>
+          <p>Teachers can organise her daily essential tasks and paperwork as well as monitor student's activities and report to the parents directly.</p>
+        </div>
+
+        <div class="flex--vertical fadeInLeft fadeInLeft--2">
+          <object type="image/svg+xml" data="images/features-rec.svg"></object>
+          <p>Parents can monitor their child's activities and take important decisions later. They can talk to the teachers and get updated.</p>
+        </div>
+
     </div>
-    <img class="features__image" src="{{ page.section-features.image }}" alt="">
+    <img class="features__image" src="images/features-image.png" alt="">
     <div class="features__right aligner flex--vertical">
-      {% for feature in page.section-features.features-right %}
-        <div class="flex--vertical fadeInRight fadeInRight--{{ forloop.index0 }}">
-          <object type="image/svg+xml" data="{{ feature.img }}"></object>
-          <p>{{ feature.text }}</p>
+
+        <div class="flex--vertical fadeInRight fadeInRight--0">
+          <object type="image/svg+xml" data="images/features-star.svg"></object>
+          <p>Schools can manage their teachers and other paperwork easily without getting into too much hassle.</p>
         </div>
-      {% endfor %}
+
+        <div class="flex--vertical fadeInRight fadeInRight--1">
+          <object type="image/svg+xml" data="images/features-triangle.svg"></object>
+          <p>Institutes can target their bright students and also help in performance improvement by managing students and faculty</p>
+        </div>
+
+        <div class="flex--vertical fadeInRight fadeInRight--2">
+          <object type="image/svg+xml" data="images/features-rec.svg"></object>
+          <p>Preschools can take care of the toddlers and keep track of essential information and keep in sync with their parents.</p>
+        </div>
+
     </div>
   </div>
 </section>
 <section class="section--stats scroll-to-reveal js-section">
   <div class="section__title">
-    <h3 class="font-fjalla">{{ page.section-stats.title }}</h3>
-    <p>{{ page.section-stats.description }}</p>
+    <h3 class="font-fjalla">Add value to the education</h3>
+    <p>School communication & work made super-easy</p>
   </div>
-  {% for stats in page.section-stats.stats-list %}
+
     <div class="stats__block">
       <div class="flex--horizontal">
-        <h5 class="stats__name">{{ stats.name }}</h5>
-        <h4 class="font-fjalla stats__result">{{ stats.number }}</h4>
+        <h5 class="stats__name">Attendance Tracking</h5>
+        <h4 class="font-fjalla stats__result"></h4>
       </div>
       <div class="stats">
-        <canvas id="{{ stats.id }}" ></canvas>
+        <canvas id="stats-0" ></canvas>
       </div>
     </div>
-  {% endfor %}
+
+    <div class="stats__block">
+      <div class="flex--horizontal">
+        <h5 class="stats__name">Performance Management</h5>
+        <h4 class="font-fjalla stats__result"></h4>
+      </div>
+      <div class="stats">
+        <canvas id="stats-1" ></canvas>
+      </div>
+    </div>
+
+    <div class="stats__block">
+      <div class="flex--horizontal">
+        <h5 class="stats__name">Leave Records</h5>
+        <h4 class="font-fjalla stats__result"></h4>
+      </div>
+      <div class="stats">
+        <canvas id="stats-2" ></canvas>
+      </div>
+    </div>
+
+    <div class="stats__block">
+      <div class="flex--horizontal">
+        <h5 class="stats__name">Personality Mapping</h5>
+        <h4 class="font-fjalla stats__result"></h4>
+      </div>
+      <div class="stats">
+        <canvas id="stats-3" ></canvas>
+      </div>
+    </div>
+
+    <div class="stats__block">
+      <div class="flex--horizontal">
+        <h5 class="stats__name">Course Planner</h5>
+        <h4 class="font-fjalla stats__result"></h4>
+      </div>
+      <div class="stats">
+        <canvas id="stats-4" ></canvas>
+      </div>
+    </div>
+
+    <div class="stats__block">
+      <div class="flex--horizontal">
+        <h5 class="stats__name">Curriculum Report</h5>
+        <h4 class="font-fjalla stats__result"></h4>
+      </div>
+      <div class="stats">
+        <canvas id="stats-5" ></canvas>
+      </div>
+    </div>
+
 </section>
 <section class="section--integrations js-section">
   <div class="section__title">
-    <h3 class="font-fjalla">{{ page.section-integrations.title }}</h3>
+    <h3 class="font-fjalla">Sailent Features</h3>
   </div>
   <div class="flex--horizontal">
-    {% for logo in page.section-integrations.logos %}
-      <img src="{{ logo.img }}" alt="{{ logo.name }}" class="logo">
-    {% endfor %}
+
+      <img src="images/logos/1.svg" alt="airbnb" class="logo">
+
+      <img src="images/logos/2.svg" alt="twitter" class="logo">
+
+      <img src="images/logos/3.svg" alt="eventbrite" class="logo">
+
+      <img src="images/logos/4.svg" alt="netflix" class="logo">
+
   </div>
 </section>
 <section class="section--customers js-section">
   <div class="section__container">
-    <h4 class="title">{{ page.section-customers.title }}</h4>
+    <h4 class="title">intuitive interface</h4>
     <div class="slide__container">
-      {% for slide in page.section-customers.slides %}
+
         <div>
           <div class="flex--horizontal slide">
             <div class="slide__content">
-              <h4 class="font-fjalla slide-{{forloop.index}}">{{ slide.title }}</h4>
-              <p class="slide-{{forloop.index}}">{{ slide.paragraph }}</p>
+              <h4 class="font-fjalla slide-1">Connecting with teachers is now easy</h4>
+              <p class="slide-1">TalentClouds helps students and parents to connect with teachers anytime anywhere. Parents can take updates from the teachers and know about their kid’s school activities.</p>
             </div>
-            <img src="{{ slide.image }}" alt="" class="slide__image slide-{{forloop.index}}">
+            <img src="images/customer-1.png" alt="" class="slide__image slide-1">
           </div>
         </div>
-      {% endfor %}
+
+        <div>
+          <div class="flex--horizontal slide">
+            <div class="slide__content">
+              <h4 class="font-fjalla slide-2">Performance metrics for better</h4>
+              <p class="slide-2">TalentClouds native algorithms helps in mapping personality traits, interests, extracurriculum to know where your child can shine.</p>
+            </div>
+            <img src="images/customer-2.png" alt="" class="slide__image slide-2">
+          </div>
+        </div>
+
+        <div>
+          <div class="flex--horizontal slide">
+            <div class="slide__content">
+              <h4 class="font-fjalla slide-3">Activities on time</h4>
+              <p class="slide-3">Event calendar and activity lists helps students and parents stay on track on every school events.</p>
+            </div>
+            <img src="images/customer-3.png" alt="" class="slide__image slide-2">
+          </div>
+        </div>
+
+        <div>
+          <div class="flex--horizontal slide">
+            <div class="slide__content">
+              <h4 class="font-fjalla slide-4">Achievements to accelerate</h4>
+              <p class="slide-4">Gamification of tasks and assignments to encourage kids to finish their work soon and rewarding them.</p>
+            </div>
+            <img src="images/customer-4.png" alt="" class="slide__image slide-2">
+          </div>
+        </div>
+
     </div>
   </div>
 </section>
 <section class="section--contact js-section">
   <div class="section__title">
-    <h3 class="font-fjalla">{{ page.section-contact.title }}</h3>
-    <p>{{ page.section-contact.description }}</p>
+    <h3 class="font-fjalla">Ready to get started?</h3>
+    <p>Sign up here and our representative will contact you shortly.</p>
     <div class="form-group">
       <input type="text" class="input" placeholder="Your Email">
-      <button class="input-button" onclick="mailto:connect@wallify.in">Send</button>
+      <button class="input-button" onclick="mailto:connect@wallify.in;">Sign Up</button>
     </div>
   </div>
 </section>
+
+    <script type="text/javascript" src="stats.js"></script>
+    <script src="./oasis.js"></script>
+  </body>
+</html>

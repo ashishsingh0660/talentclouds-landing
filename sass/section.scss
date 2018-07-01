@@ -133,7 +133,7 @@ section {
   }
   &:before {
     position: absolute;
-    background: radial-gradient(#B5CEEF 0%, #efb5dd21 30%, #fff 30%); 
+    background: radial-gradient(#B5CEEF 0%, #efb5dd21 30%, #fff 30%);
     content: "";
     top: -220px;
     right: -40px;
@@ -212,13 +212,13 @@ section {
       color: $purple-10;
       transition: 1s;
       .stats__name {
-        color: white;
+        color: #424242;
         font-weight: 600;
       }
     }
   }
   .stats__name {
-    color: $purple-4;
+    color: #424242;
     font-weight: 400;
     flex-grow: 1;
   }

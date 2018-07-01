@@ -8,7 +8,7 @@ h6 {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h2 {
@@ -125,7 +125,7 @@ nav.fixed {
   padding: 0.5rem;
   width: 25px;
   height: 25px;
-  background-color: #38355a;
+  background-color: #fff;
   text-align: right;
   font-size: 1rem;
   position: fixed;
@@ -143,7 +143,7 @@ nav.fixed {
 .mobile-list {
   display: none;
   z-index: 50;
-  background-color: #3e3c65;
+  background-color: #F4FAFF;
   padding: 6rem 1rem 1rem 1rem;
   position: fixed;
   top: 0;
@@ -416,7 +416,7 @@ section {
   font-weight: 600;
 }
 .section--stats .stats__name {
-  color: #DAEDFC;
+  color: #424242;
   font-weight: 400;
   flex-grow: 1;
 }
