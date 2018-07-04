@@ -714,11 +714,15 @@ footer .store-badge{
 }
 
 footer .playstore{
-  width: 30%;
+  width: 17%;
 }
 
 footer .webapp{
-  width: 40%;
+  width: 21%;
+}
+
+footer .wallify{
+  width: 13%;
 }
 
 footer img{
