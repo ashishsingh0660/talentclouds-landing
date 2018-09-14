@@ -1643,6 +1643,18 @@ input[type="submit"].form-control:focus {
   color: #ff3f3f;
   background-color: rgba(255, 63, 63, 0.1); }
 
+  .tag-label-login {
+    display: inline-block;
+    margin-bottom: 14px;
+    padding: 6px 13px;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 2px;
+    font-family: "Poppins", "Droid Arabic Kufi", sans-serif;
+    text-transform: uppercase;
+    color: #1b8bf9;
+    background-color: rgba(#1b8bf9, 0.37); }
+
 /* Banner Center Box */
 .banner-center-box {
   padding: 120px 0 170px;
