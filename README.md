@@ -1,1 +1,0 @@
-# TalentClouds | School Management App
