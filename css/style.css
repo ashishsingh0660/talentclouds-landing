@@ -1182,6 +1182,18 @@ input[type="submit"].form-control:focus {
   .social-icons.hover-colorful:not(.animated) li a:hover i:first-child {
     color: #1b8bf9; }
 
+  .footer-links {
+    display: flex;
+    font-size: 14px;
+    list-style: none;
+    margin-left: auto;
+    margin-bottom: -5px;
+  }
+
+  .footer-links a {
+    padding-right: 2rem;
+  }
+
 /*  [ 14 ] - Testimonial Single 1
 =================================== */
 .testimonial-single-1 {
@@ -2642,6 +2654,21 @@ body.scroll-lock {
       padding-top: 50px;
       margin-top: 50px;
       border-top: 1px solid #2b2b2b; }
+
+.store-badge {
+  display: flex;
+  width: 100%;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.store-badge .playstore {
+  height: 100px;
+}
+
+.store-badge .webapp {
+  height: 100px;
+}
 
 /* Footer Bar 1 */
 #footer-bar-1 {
