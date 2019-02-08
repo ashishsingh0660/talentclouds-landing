@@ -1,0 +1,323 @@
+.about_banner_area {
+    padding-top: 240px;
+    padding-right: 0;
+    padding-bottom: 187px;
+    padding-left: 0;
+    background: url("../images/banner/appart-post.jpg") no-repeat scroll center 0/cover;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    &:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        z-index: -1;
+    }
+    .banner-content {
+        margin-left: auto;
+        margin-right: auto;
+        h1 {
+            font: 500 50px/55px "Poppins", sans-serif;
+            letter-spacing: 1.2px;
+            -ms-word-wrap: break-word;
+            word-wrap: break-word;
+        }
+    }
+    p {
+        font: 400 18px "Poppins", sans-serif;
+    }
+}
+
+.feature_banner_area {
+    background: url("../images/banner/features_bg.jpg") no-repeat scroll center 0/cover;
+}
+
+.page-cover-tittle {
+    font: 400 55px/65px "Poppins", sans-serif;
+    letter-spacing: 0px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.titlebar p {
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto !important;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.page-main {
+    height: 960px;
+    position: relative;
+    overflow: hidden;
+    .display-flex {
+        height: 100%;
+    }
+    .page_contain {
+        h2 {
+            font: 300 60px/70px $pop;
+            letter-spacing: -0.12px;
+            color: #1a264a;
+            span {
+                font-weight: 700;
+            }
+        }
+        p {
+            font: 400 18px/30px $pop;
+            color: #76859f;
+            padding: 30px 0px 50px;
+        }
+        .banner_btn {
+            border-color: #ba77ff;
+            background: #ba77ff;
+            &:hover {
+                background: transparent;
+                color: #ba77ff;
+            }
+            & + .banner_btn {
+                background: transparent;
+                color: #ba77ff;
+                &:hover {
+                    background: #ba77ff;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .images-container {
+        margin-right: 0px;
+        text-align: right;
+        position: relative;
+        left: 70px;
+        top: 20px;
+        img {
+            max-width: 100%;
+            display: inline-block;
+        }
+    }
+}
+
+.first {
+    .circle {
+        position: absolute;
+        border-radius: 50%;
+        &.circle-1 {
+            width: 900px;
+            height: 900px;
+            top: -17%;
+            left: 150px;
+            background-color: rgb(151, 136, 255);
+            opacity: 0.102;
+            box-shadow: 0px 0px 30px 0px rgba(89, 50, 123, 0.5);
+        }
+        &.circle-2 {
+            width: 800px;
+            height: 800px;
+            top: 100px;
+            right: 150px;
+            background-color: rgb(254, 180, 215);
+            opacity: 0.149;
+            box-shadow: 0px 0px 30px 0px rgba(195, 107, 148, 0.3);
+        }
+        &.circle-3 {
+            width: 600px;
+            height: 600px;
+            top: 200px;
+            right: 250px;
+            background-color: rgb(254, 180, 215);
+            opacity: 0.149;
+            box-shadow: 0px 0px 30px 0px rgba(195, 107, 148, 0.3);
+        }
+    }
+}
+
+
+
+/*==========================================        CUSTOM       ==================================================*/ 
+
+.n_hero_banner_area {
+    min-height: 1010px;
+    position: relative;
+    z-index: 1;
+    padding-top: 250px;
+    background-image: -moz-linear-gradient( 40deg, rgb(29, 62, 222) 0%, rgb(3, 218, 246) 100%);
+    background-image: -webkit-linear-gradient( 40deg, rgb(29, 62, 222) 0%, rgb(3, 218, 246) 100%);
+    background-image: -ms-linear-gradient( 40deg, rgb(29, 62, 222) 0%, rgb(3, 218, 246) 100%);
+    overflow: hidden;
+}
+
+.n_banner_content {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.n_banner_content h2 {
+    font-size: 50px;
+    line-height: 66px;
+    font-weight: 700;
+}
+
+.n_banner_content p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 18px 55px 60px 0px;
+}
+
+.n_banner_btn {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+    background-image: -moz-linear-gradient(to right, rgb(74, 119, 244) 0%, rgb(0, 186, 222) 51%, rgb(74, 119, 244) 100%);
+    background-image: -webkit-linear-gradient(to right, rgb(74, 119, 244) 0%, rgb(0, 186, 222) 51%, rgb(74, 119, 244) 100%);
+    background-image: -ms-linear-gradient(to right, rgb(74, 119, 244) 0%, rgb(0, 186, 222) 51%, rgb(74, 119, 244) 100%);
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 29, 0.14) !important;
+    background-image: linear-gradient(to right, rgb(74, 119, 244) 0%, rgb(0, 186, 222) 51%, rgb(74, 119, 244) 100%);
+    background-size: 200% auto;
+    padding: 18px 33px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    transition: all 0.3s linear;
+    &:hover {
+        background-position: right center;
+        color: #fff;
+    }
+}
+
+.n_hero_banner_area .mobile_img {
+    position: relative;
+    z-index: 2;
+}
+
+.n_hero_banner_area .mobile_img img {
+    max-width: inherit;
+    position: relative;
+    z-index: 1;
+    top: -120px;
+}
+
+.n_hero_banner_area svg {
+    position: absolute;
+    bottom: -29px;
+    height: 350px;
+    width: 100%;
+    left: 0;
+}
+
+.shape_banners {
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.shape_banners .img1 {
+    right: 120px;
+    position: absolute;
+    top: 176px;
+}
+
+.shape_banners .img2 {
+    left: 24px;
+    top: 358px;
+    position: absolute;
+}
+
+.shape_banners .img3 {
+    top: 200px;
+    position: absolute;
+    left: 80px;
+}
+
+.about_area_paralux {
+	padding-top: 200px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.about_area_paralux .shape {
+	position: absolute;
+	top: 0;
+	right: 80px;
+	z-index: -1;
+}
+
+.align_items_center {
+	align-items: center;
+	font-family: "Poppins", sans-serif;
+}
+
+.about_area_paralux .about_img {
+	margin-left: 30px;
+}
+
+.about_area_paralux .about_img {
+	position: relative;
+}
+
+.about_area_paralux .about_img img, .faq_solution_area .faq_image_mockup img {
+	max-width: 100%;
+}
+
+.h_color {
+	color: #282835;
+	font-weight: 600;
+	line-height: 50px;
+	font-family: "Poppins", sans-serif;
+}
+
+.f_36 {
+	font-size: 36px;
+}
+
+.about_area_paralux .about_content p {
+	padding-top: 30px;
+}
+
+.about_area_paralux .about_content .n_banner_btn {
+	margin-top: 70px;
+}
+
+
+.n_call_action_content {
+    padding: 130px;
+    padding-right: 0;
+}
+
+.new_call_action_area .action_mobile {
+	top: -145px;
+}
+
+@media (max-width: 1280px) {
+    .n_hero_banner_area {
+        min-height: auto;
+        padding-top: 170px !important;
+    }
+    .n_banner_content {
+        flex: 1;
+        justify-content: center;
+        align-self: center;
+    }
+    .n_hero_banner_area .mobile_img img {
+        max-width: 100%;
+        top: -58px;
+    }
+    .n_hero_banner_area svg {
+        display: none;
+    }
+}
